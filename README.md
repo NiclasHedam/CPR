@@ -35,7 +35,7 @@ See [exampes/example.php](examples/example.php) for more examples
 
 ## Credits
 
-This package is made possible with help from [Frax.dk Development](https://frax.dk) and [Hedam Technologies IvS](https://hedam.org).
+This package is made possible with help from [Frax.dk Development](http://frax.dk) and [Hedam Technologies IvS](http://hedam.org).
 
 ## License
 
