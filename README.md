@@ -7,12 +7,17 @@ As of 2007, some CPR-numbers might return invalid, due to the lack of available 
 
 ## Installation
 
-```composer require niclashedam/cpr
-```
+Install it using composer
+
+`composer require niclashedam/cpr`
 
 ## Usage
 
-```use NiclasHedam/CPR;
+Just include it and instantiate the CPR class.
+
+
+```
+use NiclasHedam/CPR;
 
 $cpr = new CPR("2412958899");
 var_dump($cpr->valid());
