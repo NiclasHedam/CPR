@@ -1,2 +1,4 @@
-# L5-CPR
-CPR-Validation &amp; more for Laravel
+# CPR
+A tool for validating Danish CPR-numbers
+
+```composer require niclashedam/cpr```

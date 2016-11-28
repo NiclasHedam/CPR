@@ -1,0 +1,27 @@
+{
+    "name": "NiclasHedam/CPR",
+    "description": "A tool for validating Danish CPR-numbers",
+    "type": "library",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Niclas Hedam",
+            "email": "niclas@frax.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "scripts": {
+        "test": "phpunit ./tests"
+    },
+    "autoload": {
+        "files":[
+            "src/CPR.php"
+        ]
+    }
+}
