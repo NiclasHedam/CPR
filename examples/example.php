@@ -4,7 +4,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 use NiclasHedam\CPR;
 
-$cpr = new CPR("2412958899");
+$cpr = new CPR('2412958899');
 
 $cpr->valid(); // returns true;
 
