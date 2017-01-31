@@ -17,7 +17,7 @@ class CPR
 
     public function __construct($cpr)
     {
-        try{
+        try {
             $this->d1 = (int) substr($cpr, 0, 1);
             $this->d2 = (int) substr($cpr, 1, 1);
             $this->d3 = (int) substr($cpr, 2, 1);
@@ -28,7 +28,7 @@ class CPR
             $this->d8 = (int) substr($cpr, 7, 1);
             $this->d9 = (int) substr($cpr, 8, 1);
             $this->d10 = (int) substr($cpr, 9, 1);
-        }catch(\Exception $e){
+        } catch (\Exception $e) {
             throw new \Exception('Invalid input');
         }
     }
