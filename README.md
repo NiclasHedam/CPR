@@ -1,5 +1,7 @@
 # CPR
-[![Build Status](https://travis-ci.org/NiclasHedam/CPR.svg?branch=master)](https://travis-ci.org/NiclasHedam/CPR)
+[![Build Status](https://scrutinizer-ci.com/g/NiclasHedam/CPR/badges/build.png?b=master)](https://scrutinizer-ci.com/g/NiclasHedam/CPR/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/NiclasHedam/CPR/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/NiclasHedam/CPR/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/NiclasHedam/CPR/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/NiclasHedam/CPR/?branch=master)
 
 A tool for validating Danish CPR-numbers, determining gender and calculating birthday.
 Almost any CPR-numbers can be validated with modulus 11, which this tool does.
