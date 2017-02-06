@@ -20,18 +20,21 @@ class CPRTest extends \PHPUnit_Framework_TestCase
     /**
      * @expectedException Exception
      */
-    public function testTooShortCPR(){
+    public function testTooShortCPR()
+    {
         new CPR('24129502');
     }
 
     /**
      * @expectedException Exception
      */
-    public function testTooLongCPR(){
+    public function testTooLongCPR()
+    {
         new CPR('241295020521');
     }
 
-    public function testCPRWithLeadingZero(){
+    public function testCPRWithLeadingZero()
+    {
         $cpr = new CPR('0401040986');
         $this->assertEquals($cpr->cpr(), '0401040986');
     }

@@ -17,7 +17,7 @@ class CPR
 
     public function __construct($cpr)
     {
-        if(strlen($cpr) > 10 || strlen($cpr) < 10){
+        if (strlen($cpr) > 10 || strlen($cpr) < 10) {
             throw new \Exception('Invalid input');
         }
 
@@ -33,8 +33,9 @@ class CPR
         $this->d10 = (int) substr($cpr, 9, 1);
     }
 
-    public function cpr(){
-        return sprintf("%s%s%s%s%s%s%s%s%s%s", $this->d1, $this->d2, $this->d3, $this->d4, $this->d5, $this->d6, $this->d7, $this->d8, $this->d9, $this->d10);
+    public function cpr()
+    {
+        return sprintf('%s%s%s%s%s%s%s%s%s%s', $this->d1, $this->d2, $this->d3, $this->d4, $this->d5, $this->d6, $this->d7, $this->d8, $this->d9, $this->d10);
     }
 
     public function valid()
