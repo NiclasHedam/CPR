@@ -17,20 +17,24 @@ class CPR
 
     public function __construct($cpr)
     {
-        try {
-            $this->d1 = (int) substr($cpr, 0, 1);
-            $this->d2 = (int) substr($cpr, 1, 1);
-            $this->d3 = (int) substr($cpr, 2, 1);
-            $this->d4 = (int) substr($cpr, 3, 1);
-            $this->d5 = (int) substr($cpr, 4, 1);
-            $this->d6 = (int) substr($cpr, 5, 1);
-            $this->d7 = (int) substr($cpr, 6, 1);
-            $this->d8 = (int) substr($cpr, 7, 1);
-            $this->d9 = (int) substr($cpr, 8, 1);
-            $this->d10 = (int) substr($cpr, 9, 1);
-        } catch (\Exception $e) {
+        if(strlen($cpr) > 10 || strlen($cpr) < 10){
             throw new \Exception('Invalid input');
         }
+
+        $this->d1 = (int) substr($cpr, 0, 1);
+        $this->d2 = (int) substr($cpr, 1, 1);
+        $this->d3 = (int) substr($cpr, 2, 1);
+        $this->d4 = (int) substr($cpr, 3, 1);
+        $this->d5 = (int) substr($cpr, 4, 1);
+        $this->d6 = (int) substr($cpr, 5, 1);
+        $this->d7 = (int) substr($cpr, 6, 1);
+        $this->d8 = (int) substr($cpr, 7, 1);
+        $this->d9 = (int) substr($cpr, 8, 1);
+        $this->d10 = (int) substr($cpr, 9, 1);
+    }
+
+    public function cpr(){
+        return sprintf("%s%s%s%s%s%s%s%s%s%s", $this->d1, $this->d2, $this->d3, $this->d4, $this->d5, $this->d6, $this->d7, $this->d8, $this->d9, $this->d10);
     }
 
     public function valid()
