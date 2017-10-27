@@ -3,8 +3,10 @@
 require_once __DIR__.'/../vendor/autoload.php';
 
 use NiclasHedam\CPR;
+use PHPUnit\Framework\TestCase;
 
-class CPRTest extends \PHPUnit_Framework_TestCase
+
+class CPRTest extends TestCase
 {
     private $cpr1;
     private $cpr2;
