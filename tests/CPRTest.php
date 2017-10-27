@@ -12,8 +12,9 @@ class CPRTest extends TestCase
     private $cpr2;
     private $cpr3;
 
-    public function __construct()
+    public function __construct($name = null, array $data = [], $dataName = '')
     {
+        parent::__construct($name, $data, $dataName)
         $this->cpr1 = new CPR('2412958899');
         $this->cpr2 = new CPR('0401040986');
         $this->cpr3 = new CPR('2412951234');
