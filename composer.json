@@ -2,7 +2,7 @@
     "name": "niclashedam/cpr",
     "description": "A tool for validating Danish CPR-numbers",
     "type": "library",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Niclas Hedam",
