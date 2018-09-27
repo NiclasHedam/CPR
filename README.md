@@ -34,10 +34,6 @@ See [exampes/example.php](examples/example.php) for more examples
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## Credits
-
-This package is made possible with help from [Frax.dk Development](http://frax.dk) and [Hedam Technologies IvS](http://hedam.org).
-
 ## License
 
-Released under the Apache License 2.0
+Released under the MIT license
