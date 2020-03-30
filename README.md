@@ -1,6 +1,7 @@
 # CPR
 [![Build Status](https://travis-ci.org/NiclasHedam/CPR.svg?branch=master)](https://travis-ci.org/NiclasHedam/CPR)
 [![Coverage Status](https://coveralls.io/repos/github/NiclasHedam/CPR/badge.svg?branch=master)](https://coveralls.io/github/NiclasHedam/CPR?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fniclashedam%2FCPR.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fniclashedam%2FCPR?ref=badge_shield)
 
 A tool for validating Danish CPR-numbers, determining gender and calculating birthday.
 Almost any CPR-numbers can be validated with modulus 11, which this tool does.
@@ -37,3 +38,6 @@ See [exampes/example.php](examples/example.php) for more examples
 ## License
 
 Released under the MIT license
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fniclashedam%2FCPR.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fniclashedam%2FCPR?ref=badge_large)
