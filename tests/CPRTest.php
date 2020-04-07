@@ -17,22 +17,19 @@ class CPRTest extends TestCase
         $this->cpr1 = new CPR('2412958899');
         $this->cpr2 = new CPR('0401040986');
         $this->cpr3 = new CPR('2412951234');
+
     }
 
-    /**
-     * @expectedException Exception
-     */
     public function testTooShortCPR()
     {
+        $this->expectException('Exception');
         new CPR('24129502');
     }
 
-    /**
-     * @expectedException Exception
-     */
     public function testTooLongCPR()
     {
-        new CPR('241295020521');
+        $this->expectException('Exception');
+       	new CPR('241295020521');
     }
 
     public function testCPRWithLeadingZero()
